@@ -67,9 +67,73 @@ h6 {
 }
 
 .header .header-nav a:hover {
-	color: gold;
+	color: greenyellow;
 }
 
 .header .header-nav li:first-child {
 	margin-left: 0px;
 }
+* intro section */
+.intro-section {
+	padding-bottom: 98px;
+}
+
+.intro-section .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro-section .intro-text {
+	margin-top: 127px;
+}
+
+.intro-section .intro-text h1 {
+	color: #EEE;
+	font-size: 96px;
+	font-weight: 700;
+	line-height: 96px;
+	margin-bottom: 48px;
+}
+
+.intro-section .intro-text h1 span {
+	color: #00ADB5;
+}
+
+.intro-section .intro-btns {
+	display: flex;
+}
+
+.intro-section .intro-text .hire-me__btn {
+	border-radius: 24px;
+	background: #00ADB5;
+	padding: 10px 32px;
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	margin-right: 24px;
+}
+
+.intro-section .intro-text .download-btn {
+	padding: 10px 32px;
+	border-radius: 24px;
+	background: rgba(57, 62, 70, 0.75);
+	border: none;
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.intro-section .intro-img {
+	width: 480px;
+	margin-top: 90px;
+}
+
+
+/*intro-section-two*/
