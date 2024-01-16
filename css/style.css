@@ -1,0 +1,75 @@
+/* Fonts: Oswald, Popins */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins';
+	font-weight: 400;
+	background-color: #222831;
+}
+
+ul,
+ol {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.container {
+	max-width: 1065px;
+	margin: 0 auto;
+}
+
+/* header section */
+.header {
+	padding: 30px 0;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .header-logo h3 {
+	color: #EEE;
+	font-family: "Oswald";
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.header .header-nav ul {
+	display: flex;
+}
+
+.header .header-nav li {
+	list-style: none;
+	margin-left: 40px;
+}
+
+.header .header-nav a {
+	text-decoration: none;
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.header .header-nav a:hover {
+	color: gold;
+}
+
+.header .header-nav li:first-child {
+	margin-left: 0px;
+}
