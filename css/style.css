@@ -189,31 +189,60 @@ h6 {
 }
 
 .work-section .work-title span {
-	color: #00ADB5;
+	color: hsl(182, 14%, 57%);
 }
 
 .work-section .btn-one {
 	border-radius: 24px;
 	background: #00ADB5;
-	padding: 5px 23px;
+	padding: 10px 32px;
 	border: none;
 	cursor: pointer;
+}
+
+.work-section .btn-one span {
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;	
 }
 
 .work-section .btn-two {
 	border-radius: 24px;
-	padding: 5px 23px;
+	padding: 10px 32px;
+	background-color: #2C323B;
+	border: none;
+	cursor: pointer;
+}
+.work-section .btn-two span{
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.work-section .btn-three {
+	border-radius: 24px;
+	padding: 10px 32px;
 	background-color: #2C323B;
 	border: none;
 	cursor: pointer;
 }
 
-.work-section .btn-three {
+.work-section .btn-three span {
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;
+}
+.work-section .btn-sri {
 	border-radius: 24px;
 	padding: 5px 23px;
 	background-color: #2C323B;
 	border: none;
 	cursor: pointer;
+}
+.work-section .btn-sri span{
+	color: #EEE;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .work-section .work-btns {
